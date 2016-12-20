@@ -1,0 +1,38 @@
+{
+  "name": "accepts-ext",
+  "version": "1.0.0",
+  "description": "Express middleware to turn file extensions into Accept headers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.13"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "express": "^4.14.0",
+    "supertest": "^2.0.1",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stewartml/accepts-ext.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "accepts",
+    "mime",
+    "extension"
+  ],
+  "author": "Stewart MacKenzie-Leigh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stewartml/accepts-ext/issues"
+  },
+  "homepage": "https://github.com/stewartml/accepts-ext#readme"
+}
